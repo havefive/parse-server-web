@@ -1,0 +1,49 @@
+{
+  "name": "parse-server-example",
+  "version": "1.4.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/parse-server-example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^2.12.7",
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "element-ui": "^1.4.2",
+    "express": "~4.11.x",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "graceful-fs": "^4.1.11",
+    "kerberos": "~0.0.x",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.3",
+    "parse": "~1.8.0",
+    "parse-server": "*",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue": "^2.4.2",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start-web": "webpack-dev-server --inline --hot --config webpack.config.js",
+    "build": "webpack -p --config webpack.config.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
