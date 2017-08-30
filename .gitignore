@@ -32,3 +32,19 @@ node_modules
 .ebextensions/app.config
 
 dist/
+
+app.json
+
+app.yaml
+
+scalingo.json
+
+openshift.json
+
+jsconfig.json
+
+cloud/main.js
+
+azuredeploy.json
+
+Dockerfile
