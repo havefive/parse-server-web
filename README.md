@@ -1,4 +1,7 @@
-# parse-server-example
+=======
+# parse-server-web
+基于parse-server和webpack构建的全栈工程
+=======
 
 Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
 
