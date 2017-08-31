@@ -6,7 +6,6 @@ let tableData = [];
 
 new Vue({
   el: '#app',
-
   mounted: function() {
     var that = this;
     that.loading = true;
@@ -116,7 +115,7 @@ new Vue({
       });
     },
     editData: function(objectId) {
-      let that = this;  
+      let that = this;
       this.$refs.ruleForm2.validate(function(valid) {
         if (valid) {
           axios.put('http://localhost:1357/parse/classes/GameScore/' + objectId, { "score": parseInt(that.ruleForm2.score), "playerName": that.ruleForm2.name, "cheatMode": false })
